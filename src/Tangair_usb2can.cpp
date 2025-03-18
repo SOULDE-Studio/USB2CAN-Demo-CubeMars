@@ -130,8 +130,8 @@ void Tangair_usb2can::CAN_RX_device_0_thread()
         
             // 转换
             CAN_DEV0_RX.current_position_f = uint_to_float(CAN_DEV0_RX.current_position, (P_MIN), (P_MAX), 16);
-            CAN_DEV0_RX.current_speed_f = uint_to_float(CAN_DEV0_RX.current_speed, (V_MIN), (V_MAX), 16);    
-            CAN_DEV0_RX.current_torque_f = uint_to_float(CAN_DEV0_RX.current_torque, (T_MIN), (T_MAX), 16);
+            CAN_DEV0_RX.current_speed_f = uint_to_float(CAN_DEV0_RX.current_speed, (V_MIN), (V_MAX), 12);    
+            CAN_DEV0_RX.current_torque_f = uint_to_float(CAN_DEV0_RX.current_torque, (T_MIN), (T_MAX), 12);
             CAN_DEV0_RX.current_temp_f = (float)CAN_DEV0_RX.current_temp -40;                              //温度单位为摄氏度
      
 
@@ -224,8 +224,8 @@ void Tangair_usb2can::CAN_RX_device_1_thread()
         
             // 转换
             CAN_DEV1_RX.current_position_f = uint_to_float(CAN_DEV1_RX.current_position, (P_MIN), (P_MAX), 16);
-            CAN_DEV1_RX.current_speed_f = uint_to_float(CAN_DEV1_RX.current_speed, (V_MIN), (V_MAX), 16);    
-            CAN_DEV1_RX.current_torque_f = uint_to_float(CAN_DEV1_RX.current_torque, (T_MIN), (T_MAX), 16);
+            CAN_DEV1_RX.current_speed_f = uint_to_float(CAN_DEV1_RX.current_speed, (V_MIN), (V_MAX), 12);    
+            CAN_DEV1_RX.current_torque_f = uint_to_float(CAN_DEV1_RX.current_torque, (T_MIN), (T_MAX), 12);
             CAN_DEV1_RX.current_temp_f = (float)CAN_DEV1_RX.current_temp -40;                              //温度单位为摄氏度
 
             if (channel == 1)  // 模块1，can1
@@ -388,8 +388,8 @@ void Tangair_usb2can::CAN_TX_test_thread()
             
         }
 
-        // CAN发送,发送频率为1000hz,实际间隔约为950us
-        CAN_TX_ALL_MOTOR(75);
+        // CAN发送,发送频率为1000hz,实际间隔约为890us
+        CAN_TX_ALL_MOTOR(70);
             
 
         // CAN发送计数
