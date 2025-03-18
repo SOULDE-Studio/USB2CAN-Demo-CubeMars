@@ -81,7 +81,7 @@ Please cite the following if you use this code or parts of it:
 ```
 @software{tangair2025USB2CAN-Demo-CubeMars,
   author = {tangair},
-  title = {{USB2CAN-Demo-CubeMars: An  project based on USB2CAN and Lingzu motor.}},
+  title = {{USB2CAN-Demo-CubeMars: An  project based on USB2CAN and CubeMars motor.}},
   url = {https://github.com/SOULDE-Studio/USB2CAN-Demo-CubeMars.git},
   year = {2025}
 }
