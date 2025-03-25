@@ -29,7 +29,7 @@ https://e.tb.cn/h.TBC18sl6EZKXUjL?tk=C5g5eLgyMf6HU071
 https://pan.baidu.com/s/1EwYDNQ0jMKyTSvJEEcj6aw?pwd=10ob
 
 ```CubeMars电机购买地址：```
-https://e.tb.cn/h.6ZLLkZPDLJqn9KD?tk=pA1jeJ5EowGtG-#22
+https://www.cubemars.com/cn/goods-982-AK80-9.html
 
 
 
