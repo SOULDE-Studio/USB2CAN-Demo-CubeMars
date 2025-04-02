@@ -1,3 +1,0 @@
-/home/thj/USB2CAN-Demo-CubeMars/build/CMakeFiles/rebuild_cache.dir
-/home/thj/USB2CAN-Demo-CubeMars/build/CMakeFiles/edit_cache.dir
-/home/thj/USB2CAN-Demo-CubeMars/build/CMakeFiles/can_node.dir
